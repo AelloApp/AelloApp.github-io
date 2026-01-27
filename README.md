@@ -77,7 +77,7 @@
    CONFIG: fill your project
    ------------------------- */
 const SUPABASE_URL = 'https://rbyjwdvnfbdtavxwkqyx.supabase.co'; // <<--- set this
-const SUPABASE_ANON_KEY = ''; // optional: your anon key for a retry (leave blank to not send it)
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJieWp3ZHZuZmJkdGF2eHdrcXl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc2NTQzNDAsImV4cCI6MjA4MzIzMDM0MH0.eV4lTewGYaxDcHqAbuR1yv3CgtlCOnPFIW5dCZsaAXE'; // optional: your anon key for a retry (leave blank to not send it)
 
 /* -------------------------
    Helper debug output
