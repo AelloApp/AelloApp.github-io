@@ -76,7 +76,7 @@
   const SUPABASE_URL = 'https://rbyjwdvnfbdtavxwkqyx.supabase.co';
   No API key is needed for the PATCH /auth/v1/user call when using the access_token.
 */
-const SUPABASE_URL = 'https://REPLACE_WITH_YOUR_SUPABASE_URL'; // <-- edit before deploying
+const SUPABASE_URL = 'https://rbyjwdvnfbdtavxwkqyx.supabase.co'; // <-- edit before deploying
 
 // Utility: append debug lines
 function dbg(...args){
