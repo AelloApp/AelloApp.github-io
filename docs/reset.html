@@ -95,10 +95,10 @@
     let resp;
     try {
       resp = await fetch(url, {
-        method: "PATCH",
-        headers,
-        body: JSON.stringify({ password: newPassword })
-      });
+  method: "PUT",
+  headers,
+  body: JSON.stringify({ password: newPassword })
+});
     } catch (fetchErr) {
       dbg("Network error: " + fetchErr);
       document.getElementById('result').innerHTML = `<div class="error">Network error: ${fetchErr}</div>`;
